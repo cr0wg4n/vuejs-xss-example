@@ -4,6 +4,15 @@
     <router-link class="url" to="/stored">Stored Example</router-link>
     <br />
     <router-link class="url" to="/reflected">Reflected Example</router-link>
+    <br />
+    <router-link class="url" to="/stored-mitigated">
+      Stored Example (mitigated)
+    </router-link>
+    <br />
+    <router-link class="url" to="/reflected-mitigated">
+      Reflected Example (mitigated)
+    </router-link>
+    <br />
   </div>
 </template>
 

@@ -22,7 +22,22 @@ const router = createRouter({
       path: '/search',
       name: 'search',
       component: () => import('../views/SearchView.vue')
-    }
+    },
+    {
+      path: '/search-mitigated',
+      name: 'search-mitigated',
+      component: () => import('../views/SearchViewMitigated.vue')
+    },
+    {
+      path: '/stored-mitigated',
+      name: 'stored-mitigated',
+      component: () => import('../views/XSSStoredMitigatedView.vue')
+    },
+    {
+      path: '/reflected-mitigated',
+      name: 'reflected-mitigated',
+      component: () => import('../views/XSSReflectedMitigatedView.vue')
+    },
   ]
 })
 
